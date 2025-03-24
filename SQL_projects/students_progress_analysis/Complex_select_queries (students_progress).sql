@@ -143,15 +143,3 @@ SELECT module_id AS Модуль,
 FROM steps_for_student_per_mod
 	 JOIN the_most_seccessfull USING (module_id)
 ORDER BY 1, 4 DESC, 2;
-
-
-select concat(module_id, '.', lesson_position, '.', if(length(step_position) < 2, LPAD(step_position, 2, '0'), step_position), ' ', step_name) as Шаг 
-from module 
-inner join lesson using(module_id)
-inner join step using(lesson_id)
-inner join step_keyword using(step_id)
-inner join keyword using(keyword_id)
-where keyword_name = 'MAX' or keyword_name = 'AVG'
-group by 1
-having count(keyword_name) = 2
-order by 1;
