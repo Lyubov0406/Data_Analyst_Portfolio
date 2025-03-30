@@ -5,5 +5,4 @@
 Также можно скачать итоговый файл работы auto-market_analysis.twb и ознакомиться с визуализациями в собственном приложении.
 Визуализации выполнены в программе Tableau Public.
 
-В файле Car_sales_data.xls содержится исходный датасет.
-
+В файле Car_sales_data.xls содержится исходный датасет, взятый с Kaggle: https://www.kaggle.com/datasets/missionjee/car-sales-report
