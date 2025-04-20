@@ -22,6 +22,6 @@
 
 Файлы:
 
-orders.csv, payments.csv, plan.csv - используемые датасеты.
-test_instructions.pdf - текст задания, а также описание переменных/столбцов датасетов.
-Devim_test_task_(Zaitseva L).ipynb - файл со всеми рассчетами на Python и сопутствующими описаниями и выводами по результатам.
+1. orders.csv, payments.csv, plan.csv - используемые датасеты.
+2. test_instructions.pdf - текст задания, а также описание переменных/столбцов датасетов.
+3. Devim_test_task_(Zaitseva L).ipynb - файл со всеми рассчетами на Python и сопутствующими описаниями и выводами по результатам.
